@@ -7,11 +7,11 @@ enum NetworkError {
 
 void printError(NetworkError error) {
   if (error == NetworkError.badUrl) {
-    print("Bad Url");
+    print("Bad Url !");
   } else if (error == NetworkError.timeout) {
-    print("timeout");
+    print("timeout !");
   } else if (error == NetworkError.resourceNotFound) {
-    print("Resource Not Found");
+    print("Resource Not Found !");
   }
 }
 
